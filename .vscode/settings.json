@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "encoder_app.h": "c",
+        "motor_app.h": "c",
+        "jy901s_app.h": "c",
+        "pid_app.h": "c",
+        "pid.h": "c"
+    }
+}

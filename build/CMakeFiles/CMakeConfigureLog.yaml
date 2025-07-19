@@ -1,0 +1,450 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: arm-none-eabi-gcc 
+      Build flags: -u;_printf_float;-lm;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:39銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.52
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: arm-none-eabi-g++ 
+      Build flags: -u;_printf_float;-lm;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:42銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.85
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-cwivab"
+      binary: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-cwivab"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -u _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-cwivab'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b023d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:43銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\cmTC_b023d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b023d.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b023d.dir\\Debug\\cmTC_b023d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b023d.dir\\Debug\\cmTC_b023d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b023d.dir\\Debug\\cmTC_b023d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b023d.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\Debug\\libcmTC_b023d.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "E:\\CubeCLT\\STM32CubeCLT_1.17.0\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b023d.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\Debug\\libcmTC_b023d.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "E:\\CubeCLT\\STM32CubeCLT_1.17.0\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\cmTC_b023d.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\cmTC_b023d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\cmTC_b023d.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwivab\\cmTC_b023d.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-qsq9gr"
+      binary: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-qsq9gr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -u _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-qsq9gr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_38068.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:44銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\cmTC_38068.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_38068.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_38068.dir\\Debug\\cmTC_38068.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_38068.dir\\Debug\\cmTC_38068.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_38068.dir\\Debug\\cmTC_38068.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_38068.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\Debug\\libcmTC_38068.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\testCCompiler.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_38068.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\Debug\\libcmTC_38068.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\testCCompiler.c"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\cmTC_38068.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\cmTC_38068.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\cmTC_38068.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qsq9gr\\cmTC_38068.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: arm-none-eabi-gcc 
+      Build flags: -u;_printf_float;-lm;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:58銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.65
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: arm-none-eabi-g++ 
+      Build flags: -u;_printf_float;-lm;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:44:59銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.71
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ij3mv"
+      binary: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ij3mv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -u _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ij3mv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c6e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:45:00銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\cmTC_5c6e0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5c6e0.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5c6e0.dir\\Debug\\cmTC_5c6e0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_5c6e0.dir\\Debug\\cmTC_5c6e0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5c6e0.dir\\Debug\\cmTC_5c6e0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5c6e0.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\Debug\\libcmTC_5c6e0.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "E:\\CubeCLT\\STM32CubeCLT_1.17.0\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5c6e0.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\Debug\\libcmTC_5c6e0.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "E:\\CubeCLT\\STM32CubeCLT_1.17.0\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\cmTC_5c6e0.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\cmTC_5c6e0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\cmTC_5c6e0.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ij3mv\\cmTC_5c6e0.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CubeCLT/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ujsb1"
+      binary: "C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ujsb1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -u _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/19609/Desktop/STM32F407VET6/SmartCar/build/CMakeFiles/CMakeScratch/TryCompile-4ujsb1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_60e86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/7/7 20:45:01銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\cmTC_60e86.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_60e86.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_60e86.dir\\Debug\\cmTC_60e86.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_60e86.dir\\Debug\\cmTC_60e86.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_60e86.dir\\Debug\\cmTC_60e86.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_60e86.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\Debug\\libcmTC_60e86.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\testCCompiler.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Wall /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /u /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_60e86.dir\\Debug\\\\" /Fd"C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\Debug\\libcmTC_60e86.pdb" /external:W4 /Gd /TC /errorReport:queue  _printf_float -lm -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 "C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\testCCompiler.c"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\cmTC_60e86.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\cmTC_60e86.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\cmTC_60e86.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[C:\\Users\\19609\\Desktop\\STM32F407VET6\\SmartCar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ujsb1\\cmTC_60e86.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.32
+        
+      exitCode: 1
+...
