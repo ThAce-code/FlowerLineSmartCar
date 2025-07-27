@@ -88,7 +88,7 @@
 #define GARY_ALL_CHANNELS     0xFF         // 全通道掩码
 
 // 循线位置权重数组 (用于位置偏差计算)
-#define GARY_LINE_WEIGHTS     {-4.0f, -3.0f, -2.0f, -1.0f, 1.0f, 2.0f, 3.0f, 4.0f}  // 8通道位置权重
+#define GARY_LINE_WEIGHTS     {4.0f, 3.0f, 2.0f, 1.0f, -1.0f, -2.0f, -3.0f, -4.0f}  // 8通道位置权重
 
 // PID控制接口参数 (基于平均值算法，范围±4.0)
 #define GARY_ERROR_MAX        4.0f         // 最大偏差值

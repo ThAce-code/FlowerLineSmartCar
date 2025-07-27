@@ -140,6 +140,7 @@ void motor_task(void) {
     } else {
         HAL_GPIO_WritePin(GPIOA, STBY_Pin, GPIO_PIN_SET);    // 开启整个TB6612
     }
+
 }
 
 

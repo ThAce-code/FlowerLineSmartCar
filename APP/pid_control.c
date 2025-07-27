@@ -12,28 +12,28 @@ PID_T PID_line;
 PID_T PID_Angle;
 
 pid_params_t left_speed = {
-    .Kp = 180.0f,
+    .Kp = 500.0f,
     .Ki = 16.0f,
-    .Kd = 18.0f,
+    .Kd = 0.0f,
     .out_max = 999.0f,
     .out_min = -999.0f,
 };
 
 pid_params_t right_speed = {
-    .Kp = 180.0f,
+    .Kp = 500.0f,
     .Ki = 16.0f,
-    .Kd = 18.0f,
+    .Kd = 0.0f,
     .out_max = 999.0f,
     .out_min = -999.0f,
 };
 
 
 pid_params_t line = {
-    .Kp = 1.0f,
+    .Kp = 0.2f,
     .Ki = 0.0f,
-    .Kd = 0.0f,
-    // .out_max = 0.2f,
-    // .out_min = -0.2f,
+    .Kd = 100.0f,
+    .out_max = 0.2f,
+    .out_min = -0.2f,
 };
 
 pid_params_t Angle = {
@@ -41,7 +41,7 @@ pid_params_t Angle = {
     .Ki = 0.0f,
     .Kd = 0,
     .out_max = 0.0f,
-    .out_min = 0.0f
+    .out_min = 0.0f,
 };
 
 void PID_init(void) {
@@ -96,8 +96,8 @@ void PID_Line_Control(void) {
     pid_line_out= pid_calculate_positional(&PID_line, line_error);
     pid_line_out = pid_constrain(pid_line_out,line.out_min,line.out_max);
 
-    pid_set_target(&PID_left_speed,basic_speed - pid_line_out);
-    pid_set_target(&PID_right_speed,basic_speed + pid_line_out);
+    pid_set_target(&PID_left_speed,basic_speed + pid_line_out);
+    pid_set_target(&PID_right_speed,basic_speed - pid_line_out);
 }
 
 void PID_Angle_Control(void) {
@@ -108,7 +108,7 @@ void PID_Angle_Control(void) {
 void pid_task(void) {
     if (!enable) return; // 安全检查：电机未使能时直接返回
 
-    // PID_Line_Control();
+    PID_Line_Control();
 
     float speed_current_left = get_left_wheel_speed_ms();
     float speed_current_right = get_right_wheel_speed_ms();
@@ -118,7 +118,7 @@ void pid_task(void) {
     pid_right_out = pid_constrain(pid_right_out,right_speed.out_min,right_speed.out_max);
     Motor_SetSpeed(&motor1,(int32_t)pid_left_out,enable);
     Motor_SetSpeed(&motor2,(int32_t)pid_right_out,enable);
-    my_printf(&huart2,"%0.2f,%0.2f,%0.2f,%0.2f,%0.2f\n",encoder_data_A.speed_m_s,encoder_data_B.speed_m_s,basic_speed,pid_left_out,pid_right_out);
+    my_printf(&huart2,"%0.2f,%0.2f,%0.2f,%0.2f\n",encoder_data_A.speed_m_s,encoder_data_B.speed_m_s,basic_speed - pid_line_out,basic_speed + pid_line_out);
 
 }
 
